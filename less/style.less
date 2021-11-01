@@ -1,0 +1,55 @@
+//out: ../css/style.css
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+div, h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    .form {
+        display: flex;
+        margin: 10px;
+        .city {
+            border: 1px solid grey;
+            border-radius: 3px;
+        }
+        .btn {
+            margin: 0 5px;
+            padding: 0 5px;
+            cursor: pointer;
+            border: 1px solid grey;
+            border-radius: 3px;
+            background-color: #eee;
+        }
+    }
+    .weather-api, .weatherDay-api {
+    .card-weather {
+        margin: 20px;
+        display: inline-block;
+        padding: 0 30px 30px;
+        background-color: #A4C9EA;
+        border-radius: 15px;
+        .title-card {
+            font-weight: 800;   
+            text-transform: uppercase;  
+            padding: 10px; 
+        }
+        .current-weather {
+            border-collapse: collapse;
+            > tr, td, th {
+                border: 1px solid #000;  
+                text-align: left; 
+                padding: 5px;       
+            }
+        }
+    }
+}
+}

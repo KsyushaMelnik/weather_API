@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container .form {
+  display: flex;
+  margin: 10px;
+}
+.container .form .city {
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.container .form .btn {
+  margin: 0 5px;
+  padding: 0 5px;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: #eee;
+}
+.container .weather-api .card-weather,
+.container .weatherDay-api .card-weather {
+  margin: 20px;
+  display: inline-block;
+  padding: 0 30px 30px;
+  background-color: #A4C9EA;
+  border-radius: 15px;
+}
+.container .weather-api .card-weather .title-card,
+.container .weatherDay-api .card-weather .title-card {
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.container .weather-api .card-weather .current-weather,
+.container .weatherDay-api .card-weather .current-weather {
+  border-collapse: collapse;
+}
+.container .weather-api .card-weather .current-weather > tr,
+.container .weatherDay-api .card-weather .current-weather > tr,
+.container .weather-api .card-weather .current-weather td,
+.container .weatherDay-api .card-weather .current-weather td,
+.container .weather-api .card-weather .current-weather th,
+.container .weatherDay-api .card-weather .current-weather th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 5px;
+}
